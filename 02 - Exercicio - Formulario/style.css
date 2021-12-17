@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    /*font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Quicksand', sans-serif;*/
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("background.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+form {
+    height: 85%;
+    background-color: rgba( 0, 0, 0, 0.6);
+    color: white;
+    margin-top: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+table {
+    padding-left: 20px;
+}
+
+form h2 {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top right, #33ccff 0%, #ff00ff 100%);
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+input {
+    font-weight: 700;
+}
+
+#input--nome {
+    height: 30px;
+    width: 45%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+
+#input--sobrenome {
+    height: 30px;
+}
+
+#input--empresa {
+    height: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#input--email {
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#input--ddd {
+    height: 30px;
+    width: 10%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#input--telefone {
+    height: 30px;
+    margin-top: 30px;
+}
+
+#input--sexo {
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.pergunta__iniciante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button__enviar {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    height: 40px;
+    width: 100%;
+
+}
+
+.button__enviar button {
+    width: 40%;
+    background-color: #33ccff;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: black;
+}
+
+.button__enviar button:hover {
+    cursor: pointer;
+    background-color: #ff00ff;
+    color: white;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Quicksand:wght@700&display=swap" 
+    rel="stylesheet">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <section>
+        <form action="POST">
+            <h2>Formulário de Cadastro</h2>
+            <table>
+                <tr>
+                    <td>Nome e <br>Sobrenome </td>
+                    <td>
+                        <input id="input--nome" placeholder="NOME" type="text">
+                        <input id="input--sobrenome" placeholder="SOBRENOME" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Empresa </td>
+                    <td>
+                        <input id="input--empresa" placeholder="NOME DA EMPRESA" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>
+                        <input id="input--email" placeholder="E-MAIL" type="email" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Telefone <br> com DDD</td>
+                    <td>
+                        <input id="input--ddd" placeholder="(00)" type="ddd" name="">
+                        <input id="input--telefone" placeholder="99999-9999" type="phone" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sexo</td>
+                    <td>
+                        <select name="Sexo" id="input--sexo">
+                            <option value="masc">Masculino</option>
+                            <option value="fem">Feminino</option>
+                            <option value="out">Outro</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <div class="pergunta__iniciante">
+                <div class="descricao__pergunta">
+                    <p>Você é iniciante?</p>
+                </div>      
+                <div class="check__radius">
+                    <input type="radio" name="" id="">
+                    <span>Sim</span>
+                    <input type="radio" name="" id="">
+                    <span>Não</span>
+                </div>
+            </div>       
+            <div class="button__enviar">
+                <button type="submit">Enviar</button>
+            </div> 
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,96 @@
+/*font-family: 'Bakbak One', cursive;
+font-family: 'Source Sans 3', sans-serif;*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #CCC;
+}
+
+header {
+    height: 20%;
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bakbak One', cursive;
+    width: 100%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans 3', sans-serif;
+    width: 100%;
+}
+
+section {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid black;
+    height: 90%;
+    width: 18%;
+    padding: 5px;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    height: 90%;
+}
+
+.card p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+footer {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer p {
+    height: 30%;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+    margin: 0px 100px 0px 100px;
+
+}
+
+footer h3 {
+    height: 10%;
+    font-family: 'Bakbak One', cursive;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+footer ul {
+    margin-top: 30px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer ul li {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+}
+
