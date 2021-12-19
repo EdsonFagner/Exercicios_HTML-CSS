@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #202124;
+    color: #bdc1c6;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5px;
+}
+
+header a {
+    margin-left: 8px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+header img {
+    margin-left: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75%;
+    width: 100%;
+}
+
+section img {
+    height: 150px;
+    width: 400px;
+
+}
+
+section input {
+    width: 580px;
+    height: 45px;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border: 1px solid #5f6368;
+    background-color: #202124;
+}
+
+.button__area {
+    display: flex;
+}
+
+.button__area button {
+    height: 35px;
+    width: 150px;
+    margin-left: 13px;
+    background-color: #303134;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.section__text {
+    display: flex;
+    margin-top: 30px;
+}
+
+.section__text p {
+    margin-right: 8px;
+}
+
+.section__text a {
+    text-decoration: none;
+    color: #8ab4f8;
+}
+
+footer {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__up {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #171717;
+    border-bottom: 0.001px solid #303134;
+}
+
+.footer__up p {
+    margin-left: 30px;
+    color: #999da2;
+}
+
+.footer__down {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    background-color: #171717;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__left a{
+    text-decoration: none;
+    color: #999da2;
+    margin-left: 30px;
+}
+
+.nav__right a{
+    text-decoration: none;
+    color: #999da2;
+    margin-right: 30px;
+}
