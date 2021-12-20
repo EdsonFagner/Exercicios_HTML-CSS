@@ -24,13 +24,38 @@ header{
 
 header a {
     margin-left: 8px;
-    margin-right: 5px;
+    margin-right: 20px;
     text-decoration: none;
     color: white;
 }
 
-header img {
-    margin-left: 20px;
+header a:hover{
+    text-decoration: underline;
+
+}
+
+.img__apps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.img__apps:hover {
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(59, 59, 59);
+}
+
+
+#img--icon--usuario {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+#img--icon--usuario:hover {
+    cursor: pointer;
 }
 
 section {
@@ -47,15 +72,51 @@ section img {
 
 }
 
-section input {
+.search__input {
     width: 580px;
     height: 45px;
     border-radius: 30px;
     margin-top: 25px;
     margin-bottom: 30px;
     border: 1px solid #5f6368;
-    background-color: #202124;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
 }
+
+.search__input:hover {
+    background-color: rgb(59, 59, 59);
+    border: 1px solid rgb(59, 59, 59);
+}
+
+.img--lupa {
+    height: 100%;
+    width: 40px;
+    padding: 13px 12px 13px 12px;
+    margin-left: 8px;
+
+
+}
+
+.img--teclado {
+    height: 100%;
+    width: 40px;
+    padding: 15px 0px 15px 15px;
+    margin-right: 20px;
+}
+
+section input {
+    width: 540px;
+    height: 45px;
+    border: none;
+    background-color: transparent;
+}
+
+section input:focus {
+    background-color: rgb(59, 59, 59);
+    outline: none;
+}
+
 
 .button__area {
     display: flex;
@@ -71,18 +132,29 @@ section input {
     border-radius: 3px;
 }
 
+#button--pesquisa:hover {
+    border: 1px solid #5f6368;
+    cursor: pointer;
+}
+
+#button--sorte:hover {
+    border: 1px solid #5f6368;
+    cursor: pointer;
+}
+
 .section__text {
     display: flex;
     margin-top: 30px;
 }
 
-.section__text p {
-    margin-right: 8px;
-}
-
 .section__text a {
     text-decoration: none;
     color: #8ab4f8;
+    margin-left: 10px;
+}
+
+.section__text a:hover {
+    text-decoration: underline;
 }
 
 footer {
@@ -127,8 +199,16 @@ nav {
     margin-left: 30px;
 }
 
+.nav__left a:hover {
+    text-decoration: underline;
+}
+
 .nav__right a{
     text-decoration: none;
     color: #999da2;
     margin-right: 30px;
+}
+
+.nav__right a:hover {
+    text-decoration: underline;
 }
